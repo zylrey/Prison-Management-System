@@ -1,0 +1,190 @@
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\Prison Management System.exe.config
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\Prison Management System.exe
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\Prison Management System.pdb
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csprojAssemblyReference.cache
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.Form1.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.Properties.Resources.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.GenerateResource.cache
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.CoreCompileInputs.cache
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison Management System.exe
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison Management System.pdb
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmDashboard.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.dashboardpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.inmatepanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.visitorpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.prisonpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.actionpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.cellblockpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.crimepanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.reportspanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.userpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\MySql.Data.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Buffers.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Memory.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.pdb
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\MySql.Data.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Buffers.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Memory.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.CopyComplete
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addinmatepanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addvisitorpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.adduserpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmStaffDashboard.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.deleteuser.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updatevisitorpanel.resources
+C:\Users\xzylr\source\repos\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewvisitorpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\Prison Management System.exe.config
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\Prison Management System.exe
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\Prison Management System.pdb
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\MySql.Data.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Buffers.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Memory.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.pdb
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\MySql.Data.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Buffers.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Memory.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.AssemblyReference.cache
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.SuggestedBindingRedirects.cache
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.actionpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addinmatepanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.adduserpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addvisitorpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.cellblockpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.crimepanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.dashboardpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.deleteuser.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.Form1.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmDashboard.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmStaffDashboard.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.inmatepanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.prisonpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.Properties.Resources.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.reportspanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updatevisitorpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.userpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewvisitorpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.visitorpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.GenerateResource.cache
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.CoreCompileInputs.cache
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.CopyComplete
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.exe
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison Management System.pdb
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmNurseDash.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addbooking.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addFingerprint.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addMugshot.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addSignature.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.confirmationpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.inmatelistpanel.resources
+C:\Users\TUF\Documents\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewinmatepanel.resources
+F:\Prison Management System\Prison Management System\bin\Debug\Prison Management System.exe.config
+F:\Prison Management System\Prison Management System\bin\Debug\Prison Management System.exe
+F:\Prison Management System\Prison Management System\bin\Debug\Prison Management System.pdb
+F:\Prison Management System\Prison Management System\bin\Debug\BouncyCastle.Crypto.dll
+F:\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.dll
+F:\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.dll
+F:\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\Prison Management System\Prison Management System\bin\Debug\K4os.Hash.xxHash.dll
+F:\Prison Management System\Prison Management System\bin\Debug\MySql.Data.dll
+F:\Prison Management System\Prison Management System\bin\Debug\System.Buffers.dll
+F:\Prison Management System\Prison Management System\bin\Debug\System.Memory.dll
+F:\Prison Management System\Prison Management System\bin\Debug\System.Numerics.Vectors.dll
+F:\Prison Management System\Prison Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Prison Management System\Prison Management System\bin\Debug\BouncyCastle.Crypto.xml
+F:\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.pdb
+F:\Prison Management System\Prison Management System\bin\Debug\Google.Protobuf.xml
+F:\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.xml
+F:\Prison Management System\Prison Management System\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\Prison Management System\Prison Management System\bin\Debug\K4os.Hash.xxHash.xml
+F:\Prison Management System\Prison Management System\bin\Debug\MySql.Data.xml
+F:\Prison Management System\Prison Management System\bin\Debug\System.Buffers.xml
+F:\Prison Management System\Prison Management System\bin\Debug\System.Memory.xml
+F:\Prison Management System\Prison Management System\bin\Debug\System.Numerics.Vectors.xml
+F:\Prison Management System\Prison Management System\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.actionpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addbooking.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addFingerprint.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addinmatepanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addMugshot.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addSignature.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.adduserpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addvisitorpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.bookingconfirmationpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.cellblockpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.confirmationpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.crimepanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.dashboardpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.deleteuser.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.Form1.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmDashboard.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmNurseDash.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmStaffDashboard.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.inmatelistpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.inmatepanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.prisonpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.Properties.Resources.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.reportspanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updatevisitorpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.userpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewinmatepanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewvisitorpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.visitorpanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.GenerateResource.cache
+F:\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.CoreCompileInputs.cache
+F:\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csproj.CopyComplete
+F:\Prison Management System\Prison Management System\obj\Debug\Prison Management System.exe
+F:\Prison Management System\Prison Management System\obj\Debug\Prison Management System.pdb
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.backups.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addOfficer.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updatepdlrecord.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmDash.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewinmateinfo.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addCasehistory.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updateCaseHistory.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addHealthRecord.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updateHealthRecord.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.confirmBooking.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.nursePanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.nurseInmateList.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.viewInmateHealth.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addJailBooking.resources
+F:\Prison Management System\Prison Management System\bin\Debug\Bunifu_UI_v1.52.dll
+F:\Prison Management System\Prison Management System\obj\Debug\Prison Management System.csprojAssemblyReference.cache
+F:\Prison Management System\Prison Management System\bin\Debug\QRCoder.dll
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmInmateListPanel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmVisitScan.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.btnLogin.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.btnLoginJO.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.frmStaffPersonel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addStaffPersonnel.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addBooking2.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.addUser.resources
+F:\Prison Management System\Prison Management System\obj\Debug\Prison_Management_System.updateStaffPersonnel.resources

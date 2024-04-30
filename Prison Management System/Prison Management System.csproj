@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EF93749-495B-4758-8BF2-D9B0604E887D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Prison_Management_System</RootNamespace>
+    <AssemblyName>Prison Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>C:\Users\xzylr\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.21.9.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.21.9\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.32.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.32.1\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="QRCoder, Version=1.4.3.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+      <HintPath>..\packages\QRCoder.1.4.3\lib\net40\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actionpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actionpanel.Designer.cs">
+      <DependentUpon>actionpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addbooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addbooking.Designer.cs">
+      <DependentUpon>addbooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addBooking2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addBooking2.Designer.cs">
+      <DependentUpon>addBooking2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addCasehistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addCasehistory.Designer.cs">
+      <DependentUpon>addCasehistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addFingerprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addFingerprint.Designer.cs">
+      <DependentUpon>addFingerprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addHealthRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addHealthRecord.Designer.cs">
+      <DependentUpon>addHealthRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addinmatepanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addinmatepanel.Designer.cs">
+      <DependentUpon>addinmatepanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addJailBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addJailBooking.Designer.cs">
+      <DependentUpon>addJailBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addMugshot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addMugshot.Designer.cs">
+      <DependentUpon>addMugshot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addOfficer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addOfficer.Designer.cs">
+      <DependentUpon>addOfficer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSignature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addSignature.Designer.cs">
+      <DependentUpon>addSignature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addStaffPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addStaffPersonnel.Designer.cs">
+      <DependentUpon>addStaffPersonnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addUser.Designer.cs">
+      <DependentUpon>addUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adduserpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adduserpanel.Designer.cs">
+      <DependentUpon>adduserpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addvisitorpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addvisitorpanel.Designer.cs">
+      <DependentUpon>addvisitorpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="backups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backups.Designer.cs">
+      <DependentUpon>backups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bookingconfirmationpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookingconfirmationpanel.Designer.cs">
+      <DependentUpon>bookingconfirmationpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btnLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btnLogin.Designer.cs">
+      <DependentUpon>btnLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="btnLoginJO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="btnLoginJO.Designer.cs">
+      <DependentUpon>btnLoginJO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cellblockpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cellblockpanel.Designer.cs">
+      <DependentUpon>cellblockpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmationpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmationpanel.Designer.cs">
+      <DependentUpon>confirmationpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmBooking.Designer.cs">
+      <DependentUpon>confirmBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crimepanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crimepanel.Designer.cs">
+      <DependentUpon>crimepanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboardpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboardpanel.Designer.cs">
+      <DependentUpon>dashboardpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteuser.Designer.cs">
+      <DependentUpon>deleteuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDash.Designer.cs">
+      <DependentUpon>frmDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInmateListPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInmateListPanel.Designer.cs">
+      <DependentUpon>frmInmateListPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNurseDash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNurseDash.Designer.cs">
+      <DependentUpon>frmNurseDash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaffDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaffDashboard.Designer.cs">
+      <DependentUpon>frmStaffDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaffPersonel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStaffPersonel.Designer.cs">
+      <DependentUpon>frmStaffPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisitScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisitScan.Designer.cs">
+      <DependentUpon>frmVisitScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getset.cs" />
+    <Compile Include="globals.cs" />
+    <Compile Include="inmatelistpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inmatelistpanel.Designer.cs">
+      <DependentUpon>inmatelistpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inmatepanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inmatepanel.Designer.cs">
+      <DependentUpon>inmatepanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nurseInmateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nurseInmateList.Designer.cs">
+      <DependentUpon>nurseInmateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nursePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nursePanel.Designer.cs">
+      <DependentUpon>nursePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prisonpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prisonpanel.Designer.cs">
+      <DependentUpon>prisonpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportspanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportspanel.Designer.cs">
+      <DependentUpon>reportspanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLConfig.cs" />
+    <Compile Include="updateCaseHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateCaseHistory.Designer.cs">
+      <DependentUpon>updateCaseHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateHealthRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateHealthRecord.Designer.cs">
+      <DependentUpon>updateHealthRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatepdlrecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatepdlrecord.Designer.cs">
+      <DependentUpon>updatepdlrecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updateStaffPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateStaffPersonnel.Designer.cs">
+      <DependentUpon>updateStaffPersonnel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="updatevisitorpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatevisitorpanel.Designer.cs">
+      <DependentUpon>updatevisitorpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usableFunction.cs" />
+    <Compile Include="userpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userpanel.Designer.cs">
+      <DependentUpon>userpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewInmateHealth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewInmateHealth.Designer.cs">
+      <DependentUpon>viewInmateHealth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewinmateinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewinmateinfo.Designer.cs">
+      <DependentUpon>viewinmateinfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewinmatepanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewinmatepanel.Designer.cs">
+      <DependentUpon>viewinmatepanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewvisitorpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewvisitorpanel.Designer.cs">
+      <DependentUpon>viewvisitorpanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="visitorpanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="visitorpanel.Designer.cs">
+      <DependentUpon>visitorpanel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="actionpanel.resx">
+      <DependentUpon>actionpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addbooking.resx">
+      <DependentUpon>addbooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addBooking2.resx">
+      <DependentUpon>addBooking2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addCasehistory.resx">
+      <DependentUpon>addCasehistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addFingerprint.resx">
+      <DependentUpon>addFingerprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addHealthRecord.resx">
+      <DependentUpon>addHealthRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addinmatepanel.resx">
+      <DependentUpon>addinmatepanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addJailBooking.resx">
+      <DependentUpon>addJailBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addMugshot.resx">
+      <DependentUpon>addMugshot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addOfficer.resx">
+      <DependentUpon>addOfficer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addSignature.resx">
+      <DependentUpon>addSignature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addStaffPersonnel.resx">
+      <DependentUpon>addStaffPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addUser.resx">
+      <DependentUpon>addUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adduserpanel.resx">
+      <DependentUpon>adduserpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addvisitorpanel.resx">
+      <DependentUpon>addvisitorpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backups.resx">
+      <DependentUpon>backups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bookingconfirmationpanel.resx">
+      <DependentUpon>bookingconfirmationpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnLogin.resx">
+      <DependentUpon>btnLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="btnLoginJO.resx">
+      <DependentUpon>btnLoginJO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cellblockpanel.resx">
+      <DependentUpon>cellblockpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmationpanel.resx">
+      <DependentUpon>confirmationpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmBooking.resx">
+      <DependentUpon>confirmBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crimepanel.resx">
+      <DependentUpon>crimepanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboardpanel.resx">
+      <DependentUpon>dashboardpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteuser.resx">
+      <DependentUpon>deleteuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDash.resx">
+      <DependentUpon>frmDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInmateListPanel.resx">
+      <DependentUpon>frmInmateListPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNurseDash.resx">
+      <DependentUpon>frmNurseDash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaffDashboard.resx">
+      <DependentUpon>frmStaffDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaffPersonel.resx">
+      <DependentUpon>frmStaffPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisitScan.resx">
+      <DependentUpon>frmVisitScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inmatelistpanel.resx">
+      <DependentUpon>inmatelistpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inmatepanel.resx">
+      <DependentUpon>inmatepanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nurseInmateList.resx">
+      <DependentUpon>nurseInmateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nursePanel.resx">
+      <DependentUpon>nursePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prisonpanel.resx">
+      <DependentUpon>prisonpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="reportspanel.resx">
+      <DependentUpon>reportspanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateCaseHistory.resx">
+      <DependentUpon>updateCaseHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateHealthRecord.resx">
+      <DependentUpon>updateHealthRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatepdlrecord.resx">
+      <DependentUpon>updatepdlrecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateStaffPersonnel.resx">
+      <DependentUpon>updateStaffPersonnel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatevisitorpanel.resx">
+      <DependentUpon>updatevisitorpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userpanel.resx">
+      <DependentUpon>userpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewInmateHealth.resx">
+      <DependentUpon>viewInmateHealth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewinmateinfo.resx">
+      <DependentUpon>viewinmateinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewinmatepanel.resx">
+      <DependentUpon>viewinmatepanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewvisitorpanel.resx">
+      <DependentUpon>viewvisitorpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="visitorpanel.resx">
+      <DependentUpon>visitorpanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-password-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_card_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.Region_II.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-docx-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-grid-3-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-no-weapons-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-action-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-7-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-two-up-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crime-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\action-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-8-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-8-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh-2-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fingerprint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mugshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signature.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-approval-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-approval-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hide-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-police-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-police-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-male-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-female-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-count-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reload-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reset-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plus-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plus-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-plus-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-close-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-close-32 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-macos-close-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-management-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-group-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-guest-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-management-24 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-613891402-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-50 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-50.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
